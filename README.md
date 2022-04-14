@@ -16,4 +16,9 @@ yarn rw g types # for Cannot query "posts" on type "Query"
 yarn rw g cell Articles
 yarn rw g page Article
 yarn rw g cell Article
+yarn rw g component Article
+# form below
+yarn rw g page contact # add to schema.prisma
+yarn rw prisma migrate dev
+yarn rw g sdl Contact
 ```
