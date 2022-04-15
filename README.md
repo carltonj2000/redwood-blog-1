@@ -5,7 +5,9 @@ The commands documented below came from the
 webpage.
 
 This repo contains the tutorial forward to intermission and
-chapter 5 to the afterword will be in this tbd repo.
+chapter 5 to the afterword is in the
+[redwood-tutorial](https://github.com/carltonj2000/redwood-tutorial)
+repo.
 
 ```bash
 yarn redwood dev
