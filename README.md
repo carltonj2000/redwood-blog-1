@@ -21,4 +21,8 @@ yarn rw g component Article
 yarn rw g page contact # add to schema.prisma
 yarn rw prisma migrate dev
 yarn rw g sdl Contact
+# auth
+yarn rw setup auth dbAuth # y for overwrite default auth code
+yarn rw prisma migrate dev # after adding user to schema.prisma
+yarn rw g dbAuth # auth gui
 ```
