@@ -4,6 +4,9 @@ The commands documented below came from the
 [RedwoodJS Tutorial](https://redwoodjs.com/docs/tutorial/foreword)
 webpage.
 
+This repo contains the tutorial forward to intermission and
+chapter 5 to the afterword will be in this tbd repo.
+
 ```bash
 yarn redwood dev
 yarn rw generate page Home /
@@ -28,5 +31,7 @@ yarn rw g dbAuth # auth gui
 # deploy db on railway.app and setup .env and schema.prisma provider
 yarn rw prisma migrate dev
 yarn rw setup deploy netlify
-
+yarn rw g secret
+# intermission
+yarn rw setup ui tailwindcss
 ```
