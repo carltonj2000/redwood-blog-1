@@ -25,4 +25,8 @@ yarn rw g sdl Contact
 yarn rw setup auth dbAuth # y for overwrite default auth code
 yarn rw prisma migrate dev # after adding user to schema.prisma
 yarn rw g dbAuth # auth gui
+# deploy db on railway.app and setup .env and schema.prisma provider
+yarn rw prisma migrate dev
+yarn rw setup deploy netlify
+
 ```
